@@ -11,9 +11,9 @@ const Button = styled.button`
   color: white;
   font-weight: 400;
   font-size: 48px;
-  width: 400px;
-  height: 200px;
-  margin-top: 100px;
+  width: 300px;
+  height: 150px;
+  margin-top: 150px;
 
   &:hover {background-color: black; cursor: pointer};
 `

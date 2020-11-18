@@ -5,7 +5,8 @@ import styled from 'styled-components'
 export const Question = () => {
 
   const Text = styled.h1`
-  font-size: 24px;  
+  font-size: 20px;  
+  margin-bottom: 20px;
 `
 
   const question = useSelector(

@@ -10,7 +10,8 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 120px;
+  margin: 20px 0;
+  text-align: center;
 `
 
 const reducer = combineReducers({

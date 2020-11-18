@@ -7,6 +7,7 @@ export const Status = () => {
   const Text = styled.h2`
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 50px;
   `
 
   const index = useSelector(
