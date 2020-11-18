@@ -1,7 +1,13 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import styled from 'styled-components'
 
 export const Status = () => {
+
+  const Text = styled.h2`
+    font-size: 20px;
+    font-weight: 400;
+  `
 
   const index = useSelector(
     (state) => state.quiz.currentQuestionIndex
@@ -12,6 +18,6 @@ export const Status = () => {
   )
 
   return (
-    <p>Question {index + 1}/{questions.length}</p>
+    <Text>Question {index + 1}/{questions.length}</Text>
   )
 }
