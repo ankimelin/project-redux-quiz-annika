@@ -10,10 +10,11 @@ const Button = styled.button`
   border: none;
   color: white;
   font-weight: 400;
-  font-size: 16px;
-  width: 100px;
+  font-size: 48px;
+  width: 400px;
+  height: 200px;
 
-  &:hover {background-color: black};
+  &:hover {background-color: black; cursor: pointer};
 `
 
 export const ResetButton = () => {

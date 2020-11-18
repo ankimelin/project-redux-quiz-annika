@@ -13,7 +13,7 @@ const Button = styled.button`
   font-size: 16px;
   width: 100px;
 
-  &:hover {background-color: black};
+  &:hover {background-color: black; cursor: pointer};
 `
 
 export const NextButton = () => {
