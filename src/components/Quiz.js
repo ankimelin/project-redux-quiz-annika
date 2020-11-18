@@ -1,8 +1,8 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 
-import { Question } from './Question.js'
-import { Summary } from './Summary.js'
+import { QuestionContainer } from './QuestionContainer.js'
+import { SummaryContainer } from './SummaryContainer.js'
 
 
 export const Quiz = () => {
@@ -13,8 +13,8 @@ export const Quiz = () => {
 
   return (
     <>
-      {!done && <Question />}
-      {done && <Summary />}
+      {!done && <QuestionContainer />}
+      {done && <SummaryContainer />}
     </>
   );
 };

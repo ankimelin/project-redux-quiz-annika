@@ -12,8 +12,6 @@ export const Status = () => {
   )
 
   return (
-    <>
-      <p>Question {index + 1}/{questions.length}</p>
-    </>
+    <p>Question {index + 1}/{questions.length}</p>
   )
 }
