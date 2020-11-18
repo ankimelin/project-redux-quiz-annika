@@ -1,6 +1,6 @@
 # Redux quiz group project
 
-Spice Girls quiz built with React and Redux, focusing on useSelector and useDispatch.
+Spice Girls quiz built with React and Redux, focusing on learning useSelector and useDispatch.
 
 ## The problem
 
